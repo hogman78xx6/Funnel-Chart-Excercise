@@ -11,7 +11,7 @@ import SwiftUI
 struct Funnel_Chart_ExcerciseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ExampleView()
         }
     }
 }

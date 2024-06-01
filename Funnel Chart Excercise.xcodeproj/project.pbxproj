@@ -11,6 +11,8 @@
 		99FDBD232C0932BE003ED49C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDBD222C0932BE003ED49C /* ContentView.swift */; };
 		99FDBD252C0932C0003ED49C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FDBD242C0932C0003ED49C /* Assets.xcassets */; };
 		99FDBD292C0932C0003ED49C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FDBD282C0932C0003ED49C /* Preview Assets.xcassets */; };
+		99FDBD302C0932F9003ED49C /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDBD2F2C0932F9003ED49C /* ExampleView.swift */; };
+		99FF6D692C0957B900F571DB /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF6D682C0957B900F571DB /* ChartData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		99FDBD242C0932C0003ED49C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99FDBD262C0932C0003ED49C /* Funnel_Chart_Excercise.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Funnel_Chart_Excercise.entitlements; sourceTree = "<group>"; };
 		99FDBD282C0932C0003ED49C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99FDBD2F2C0932F9003ED49C /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		99FF6D682C0957B900F571DB /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				99FDBD242C0932C0003ED49C /* Assets.xcassets */,
 				99FDBD262C0932C0003ED49C /* Funnel_Chart_Excercise.entitlements */,
 				99FDBD272C0932C0003ED49C /* Preview Content */,
+				99FDBD2F2C0932F9003ED49C /* ExampleView.swift */,
+				99FF6D682C0957B900F571DB /* ChartData.swift */,
 			);
 			path = "Funnel Chart Excercise";
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			files = (
 				99FDBD232C0932BE003ED49C /* ContentView.swift in Sources */,
 				99FDBD212C0932BE003ED49C /* Funnel_Chart_ExcerciseApp.swift in Sources */,
+				99FF6D692C0957B900F571DB /* ChartData.swift in Sources */,
+				99FDBD302C0932F9003ED49C /* ExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
