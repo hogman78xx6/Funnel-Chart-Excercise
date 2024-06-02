@@ -56,7 +56,7 @@ struct Funnel_Chart_Solution: View {
               .chartLegend(.hidden)
               .chartPlotStyle { plotArea in
                 plotArea
-                  .frame(width: geometry.size.width / 2, height: geometry.size.height / 4)
+                  .frame(width: geometry.size.width - geometry.size.width / 2, height: geometry.size.height / 4)
               }
               .padding()
               
