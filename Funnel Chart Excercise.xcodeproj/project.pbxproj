@@ -13,6 +13,7 @@
 		99FDBD292C0932C0003ED49C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99FDBD282C0932C0003ED49C /* Preview Assets.xcassets */; };
 		99FDBD302C0932F9003ED49C /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FDBD2F2C0932F9003ED49C /* ExampleView.swift */; };
 		99FF6D692C0957B900F571DB /* ChartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF6D682C0957B900F571DB /* ChartData.swift */; };
+		99FF6D6B2C0BD95100F571DB /* Funnel Chart Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FF6D6A2C0BD95100F571DB /* Funnel Chart Solution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		99FDBD282C0932C0003ED49C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		99FDBD2F2C0932F9003ED49C /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		99FF6D682C0957B900F571DB /* ChartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartData.swift; sourceTree = "<group>"; };
+		99FF6D6A2C0BD95100F571DB /* Funnel Chart Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Funnel Chart Solution.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				99FDBD272C0932C0003ED49C /* Preview Content */,
 				99FDBD2F2C0932F9003ED49C /* ExampleView.swift */,
 				99FF6D682C0957B900F571DB /* ChartData.swift */,
+				99FF6D6A2C0BD95100F571DB /* Funnel Chart Solution.swift */,
 			);
 			path = "Funnel Chart Excercise";
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				99FDBD232C0932BE003ED49C /* ContentView.swift in Sources */,
 				99FDBD212C0932BE003ED49C /* Funnel_Chart_ExcerciseApp.swift in Sources */,
+				99FF6D6B2C0BD95100F571DB /* Funnel Chart Solution.swift in Sources */,
 				99FF6D692C0957B900F571DB /* ChartData.swift in Sources */,
 				99FDBD302C0932F9003ED49C /* ExampleView.swift in Sources */,
 			);

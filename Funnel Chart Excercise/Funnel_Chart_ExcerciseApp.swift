@@ -11,7 +11,8 @@ import SwiftUI
 struct Funnel_Chart_ExcerciseApp: App {
     var body: some Scene {
         WindowGroup {
-            ExampleView()
+            //ExampleView()
+          Funnel_Chart_Solution()
         }
     }
 }
