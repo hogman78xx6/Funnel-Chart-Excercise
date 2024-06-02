@@ -46,17 +46,17 @@ struct Funnel_Chart_Solution: View {
                         y: .value(stringName, item.name))
                 .foregroundStyle(by: .value(numericalName, item.name))
                 .annotation(position: .trailing) {
-                  Text("\(Int(item.numerical))")
-                    .opacity(isAnnotated ? 1.0 : 0.0)
+                  Text(isAnnotated ? "\(Int(item.numerical))" : "")
+                    //.opacity(isAnnotated ? 1.0 : 0.0)
                 }
               }
               .padding()
-              .chartXAxis(.hidden)
+              //.chartXAxis(.hidden)
               .chartYAxis(.hidden)
               .chartLegend(.hidden)
               .chartPlotStyle { plotArea in
                 plotArea
-                  .frame(width: geometry.size.width - geometry.size.width / 2, height: geometry.size.height / 4)
+                  .frame(width: geometry.size.width / 2, height: geometry.size.height / 4)
               }
               .padding()
               

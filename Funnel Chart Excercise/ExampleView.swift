@@ -34,7 +34,7 @@ struct ExampleView: View {
                   .opacity(showValues ? 1.0 : 0.0)
               }
             }
-            .chartXAxis(.hidden)
+            //.chartXAxis(.hidden)
             .chartYAxis(.hidden)
             .chartLegend(.hidden)
             .chartForegroundStyleScale(range: defaultBarColors)
